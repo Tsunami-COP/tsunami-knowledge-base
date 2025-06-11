@@ -1,0 +1,91 @@
+site_name: Tsunami Knowledge Base
+site_description: Knowledge base for Tsunami community of practice
+site_url: https://Tsunami-COP.github.io/tsunami-knowledge-base/
+
+# Repository info
+repo_name: Tsunami-COP/tsunami-knowledge-base
+repo_url: https://github.com/Tsunami-COP/tsunami-knowledge-base
+edit_uri: edit/main/docs/
+
+# Theme configuration
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+
+features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - navigation.path
+  - navigation.top
+  - search.highlight
+  - search.share
+  - content.code.copy
+  - content.action.edit
+  - content.action.view
+  - announce.dismiss
+
+icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+
+# Plugins
+plugins:
+  - search:
+      lang: en
+  - git-committers:
+      repository: Tsunami-COP/tsunami-knowledge-base
+      branch: main
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Welcome: getting-started/index.md
+  - Resources:
+    - Overview: resources/index.md
+  
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Tsunami-COP/tsunami-knowledge-base/discussions
+      name: Community Discussions
