@@ -5,6 +5,9 @@ Welcome to our community knowledge base! This guide will help you understand how
 
 🚧 Under construction
 
+
+---
+
 <!-- ## 👋 New to the Community?
 
 ### What This Knowledge Base Is

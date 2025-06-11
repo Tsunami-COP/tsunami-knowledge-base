@@ -14,6 +14,3 @@ This is our collaborative space for sharing knowledge, best practices, and exper
 Tools, templates, and external resources that support our practice.
 
 ---
-
-**Last updated:** {​{ git_revision_date_localized }}  
-**Contributors:** {​{ git_committers }}
