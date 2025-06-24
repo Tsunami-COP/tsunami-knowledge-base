@@ -79,6 +79,7 @@ nav:
   - Home: index.md
   - Getting Started:
     - Welcome: getting-started/index.md
+    - How to Contribute: getting-started/contributing.md
   - Resources:
     - Overview: resources/index.md
   

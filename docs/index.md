@@ -5,7 +5,7 @@ This is our collaborative space for sharing knowledge, best practices, and exper
 ## 🚀 Quick Start
 
 - **New here?** Start with our [Getting Started Guide](getting-started/index.md)
-<!-- - **Want to contribute?** Check out [How to Contribute](getting-started/contributing.md) -->
+- **Want to contribute?** Check out [How to Contribute](getting-started/contributing.md)
 - **Have questions?** Visit our [Community Discussions](https://github.com/Tsunami-COP/tsunami-knowledge-base/discussions)
 
 ## 📚 What You'll Find Here
